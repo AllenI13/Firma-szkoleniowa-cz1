@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Group {
-    Teacher teacher;
-    List<Student> students = new ArrayList<>();
+    private Teacher teacher;
+    private List<Student> students = new ArrayList<>();
 
     public Group(Teacher teacher) {
         this.teacher = teacher;

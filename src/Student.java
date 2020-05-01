@@ -6,9 +6,9 @@ public class Student extends Person {
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", id=" + id +
+                "name='" + getName() + '\'' +
+                ", surname='" + getSurname() + '\'' +
+                ", id=" + getId() +
                 '}';
     }
 }

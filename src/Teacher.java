@@ -7,9 +7,9 @@ public class Teacher extends Person {
     @Override
     public String toString() {
         return "Teacher{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", id=" + id +
+                "name='" + getName() + '\'' +
+                ", surname='" + getSurname() + '\'' +
+                ", id=" + getId() +
                 '}';
     }
 }
